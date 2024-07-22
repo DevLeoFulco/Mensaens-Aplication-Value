@@ -12,7 +12,6 @@ public class SistemaMensagem implements CommandLineRunner {
     @Autowired
     private Remetente remetente;
 
-
     @Override
     public void run(String... args)throws Exception{
         System.out.println("Mensagem enviada por: "+ remetente.getNome() + "\n E-mail: "+remetente.getEmail() +"\n Com telefone: "+ remetente.getTelefones());

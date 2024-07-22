@@ -8,6 +8,7 @@ import java.util.List;
 @Configuration
 @ConfigurationProperties(prefix = "remetente")
 public class Remetente {
+
     private String nome;
 
     private String email;
